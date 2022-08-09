@@ -1,0 +1,217 @@
+
+body {
+    margin: 0;
+    background: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  /*--------------------------------------*/
+    /*this is the header section*/
+
+.header {
+    background-color: #1F2937;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    padding: 8px;
+    color: #E5E7EB;
+    justify-content: space-around;
+}
+.left-items{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.left-items,.right-items{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+/*--------------------------------------*/
+    /*this is the first container*/
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 125px;
+    flex-shrink: 0;
+}
+
+.content-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    font-weight:800;
+    color: #F9FAF8;
+    width: 400px;
+    margin: 0px 0px -15px 0px;
+}
+.hero-secondary-text{
+    font-size: 18px;
+    color:#E5E7EB;
+    width: 450px;
+    margin-bottom: 10px;
+}
+.content-right{
+    margin-left: 40px;
+}
+/*--------------------------------------*/
+  /*this is the second container */
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-top: 100px;
+    margin-bottom: 120px;
+    
+  }
+
+.information-header-text{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: -100px;
+    padding: 50px;
+    color: #1F2937;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    max-width: 175px;
+    text-align: center;
+    color: #1F2937;
+  }
+  
+  .info img{
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+    margin-bottom: 5px;
+    color:#E5E7EB;
+  }
+/*--------------------------------------*/
+   /*this is the third container */
+  .container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 115px;
+  }
+
+  .quote-section{
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+  }
+  
+  .quote-author{
+    display: flex;
+    font-size: 30px;
+    justify-content: flex-end;
+  }
+/*--------------------------------------*/
+    /*this is the fourth container */
+
+.container4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 100px;
+}
+
+.action-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    min-height: 150px;
+    min-width: 50%;
+    border-radius: 15px;
+    flex: 1;
+    padding: 0px 50px 0px 50px
+}
+
+.action-left-text,.action-subtext{
+    margin:0;
+}
+
+.action-left-text{
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+}
+
+.action-subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.action-content-left{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/*--------------------------------------*/
+    /*this section is for the buttons*/
+
+button {
+    border: none;
+    border-radius: 8px;
+    color: white;
+    border: 3px solid white;
+    padding: 8px 40px;
+    background-color: #3882F6;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#header-button{
+    border: none;
+    border-radius: 8px;
+    padding: 8px 30px;
+    background-color: #3882F6;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*--------------------------------------*/
+/* this section is the footer container */
+.footer{
+  background:#1F2937;
+  padding: 45px;
+  display: flex;
+  color:#E5E7EB;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+/*--------------------------------------*/
+    /* this section is for styling*/
+a {
+    /* this removes the line under links */
+    text-decoration: none;
+    color: white;
+}
+    /* this removes the style for the lists */
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+  
